@@ -1,0 +1,48 @@
+﻿#portada img {
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+    width: 100%;
+}
+
+div.row {
+   width:auto;
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+   
+}
+img.tema {
+width:100%;
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+height:auto;
+}
+.text {
+background-color:gray;
+position:absolute;
+float:right;
+top: 400px;
+right:600px;
+text-align:center;
+padding: 30px 10px 30px 10px;
+}
+
+#slogan {
+ position: absolute;
+ float:right;
+color:white;
+top: 150px;
+left:370px
+}
+article div{
+text-align:center;
+vertical-align:middle;
+}
+article div h2 {
+color:red;
+}
+article div h1,h2  {
+font-size:50px;
+}
+article div h2, p, h1 {
+font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
