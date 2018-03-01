@@ -64,7 +64,7 @@
     <article>
   <div class="row">
   <div class="col-sm-4 "><img src="img/tema1.png" alt="imagen 1" class="tema"/></div>
-  <div class="col-sm-4"style="background-color:lightgray;"><h1>ES EL MOMENTO!...</h1>  <h2>Registrate/h2>   <p></p> </div>
+  <%--<div class="col-sm-4"style="background-color:lightgray;"><h1>ES EL MOMENTO!...</h1>  <h2>Registrate</h2>   <p></p> </div>--%>
   <div class="col-sm-4"><img src="img/tema2.png"  alt="imagen 2"class="tema"/></div>
 </div>
     </article>
