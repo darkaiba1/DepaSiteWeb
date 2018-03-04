@@ -38,19 +38,15 @@
     </ul>
   </div> 
 </nav>
-
-    <header id="portada"> <!--********** portada ********* -->
-    
-        <div class="text">
+    <div class="container">
+    <div class="centered">
       <input type="search" placeholder="Intenta <<Uriangato>>"/>
       <br />
       <button type="button" class="btn btn-primary" >Localizar</button>
     </div>
-    <div id="encabezado"> <h1 id="slogan">¿Eres del ITSUR y buscas departamentos?</h1></div>
-     <img src="img/portada.png"  alt="Depasite" />
-
-    
-    </header>
+     <div class="centeredTop"> <h1 id="slogan">¿Eres del ITSUR y buscas departamentos?</h1></div> 
+     <img src="img/portada.png"  alt="Depasite"/>
+    </div>
     
  <article>
   <div class="row">
@@ -64,7 +60,7 @@
     <article>
   <div class="row">
   <div class="col-sm-4 "><img src="img/tema1.png" alt="imagen 1" class="tema"/></div>
-  <%--<div class="col-sm-4"style="background-color:lightgray;"><h1>ES EL MOMENTO!...</h1>  <h2>Registrate</h2>   <p></p> </div>--%>
+  <div class="col-sm-4"style="background-color:lightgray;"><h1>¡VAMOS!</h1>  <h2>Registrate</h2>   <p></p> </div>
   <div class="col-sm-4"><img src="img/tema2.png"  alt="imagen 2"class="tema"/></div>
 </div>
     </article>
