@@ -32,9 +32,13 @@
       <li class="nav-item">
         <a class="nav-link" href="#">Departamentos</a>
       </li>
+        <li class="nav-item">
+        <a class="nav-link" href="Registro.aspx"><span class="glyphicon glyphicon-log-in"></span>Registrar</a>
+      </li>
       <li class="nav-item">
-        <a class="nav-link" href="#"><span class="glyphicon glyphicon-log-in"></span>Login</a>
+        <a class="nav-link" href="Login.aspx"><span class="glyphicon glyphicon-log-in"></span>Login</a>
       </li> 
+          
     </ul>
   </div> 
 </nav>
