@@ -48,8 +48,7 @@
       <br />
       <button type="button" class="btn btn-primary" >Localizar</button>
     </div>
-     <div class="centeredTop"> <h1 id="slogan">¿Eres del ITSUR y buscas departamentos?</h1></div> 
-     <img src="img/portada.png"  alt="Depasite"/>
+     <img src="img/portada2.png"  alt="Depasite"/>
     </div>
     
  <article>

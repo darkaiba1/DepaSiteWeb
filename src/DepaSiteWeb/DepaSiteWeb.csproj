@@ -77,6 +77,9 @@
     <Content Include="img\login.jpg" />
     <Content Include="img\login2.png" />
     <Content Include="img\portada.png" />
+    <Content Include="img\portada2.png" />
+    <Content Include="img\portadaI.jpg" />
+    <Content Include="img\portadaL.jpg" />
     <Content Include="img\tema1.png" />
     <Content Include="img\tema2.png" />
     <Content Include="img\tema3.PNG" />
