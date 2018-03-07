@@ -6,10 +6,7 @@ using System.Threading.Tasks;
 
 namespace DepaSiteData
 {
-    class Program
+    class MensajeDAO
     {
-        static void Main(string[] args)
-        {
-        }
     }
 }
