@@ -57,13 +57,13 @@
   <div class="col-sm-4"> 
   <img src="img/tema3.PNG"  alt="imagen 3" class="tema"/>
   </div>
-  <div class="col-sm-4"style="background-color:lightgray;">.col-xs-4</div>
+  <div class="col-sm-4"style="background-color:lightgray;"><h1>Los Mejores!!</h1>  <h2>La mejor opcion!!</h2>   <p>Las mejores opciones de departamentos<br /> en renta aqui las encontraras</p>   </div>
 </div>
     </article>
     <article>
   <div class="row">
   <div class="col-sm-4 "><img src="img/tema1.png" alt="imagen 1" class="tema"/></div>
-  <div class="col-sm-4"style="background-color:lightgray;"><h1>¡VAMOS!</h1>  <h2>Registrate</h2>   <p></p> </div>
+  <div class="col-sm-4"style="background-color:lightgray;"><h1>¡VAMOS!</h1>  <h2>Registrate</h2><p>Quedaras satisfecho, somos tu mejor<br /> opcion, no te arrepentiras</p>  <p></p> </div>
   <div class="col-sm-4"><img src="img/tema2.png"  alt="imagen 2"class="tema"/></div>
 </div>
     </article>
