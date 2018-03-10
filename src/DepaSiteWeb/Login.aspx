@@ -35,7 +35,7 @@
     </div>
 
     <div class="container" style="background-color:#f1f1f1">
-      <button type="button" onclick="document.getElementById('id02').style.display='none'" class="cancelbtn">Cancelar</button>
+    <button type="button" onclick="javascript:history.back(-1);" class="cancelbtn">Cancelar </button> 
       <span class="psw">Olvidaste tu <a href="#">contraseña?</a></span>
     </div>
   </form>

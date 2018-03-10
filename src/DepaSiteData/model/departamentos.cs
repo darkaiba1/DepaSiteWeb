@@ -6,7 +6,20 @@ using System.Threading.Tasks;
 
 namespace DepaSiteData.model
 {
-    class Class1
+    class departamentos
     {
+        public int Id { get; set; }
+        public String direccion { get; set; }
+        public String municipio { get; set; }
+        public String estado { get; set; }
+        public String nombreContacto { get; set; }
+        public int costo { get; set; }
+        public String ServiciosIncluidos { get; set; }
+        public String ServiciosPago { get; set; }
+        public String Amueblado { get; set; }
+        public String numeroContacto { get; set; }
+
+
+
     }
 }

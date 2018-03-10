@@ -10,5 +10,6 @@ namespace DepaSiteData.model
     {
         public int usuarios { get; set; }
         public int departamentos { get; set; }
+
     }
 }

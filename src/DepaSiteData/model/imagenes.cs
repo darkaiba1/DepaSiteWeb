@@ -8,5 +8,10 @@ namespace DepaSiteData.model
 {
     class imagenes
     {
+        public int Id { get; set; }
+        public int departamento_id { get; set; }
+        public String imagen { get; set; }
+        public String descripcion { get; set; }
+
     }
 }

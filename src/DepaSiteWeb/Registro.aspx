@@ -29,7 +29,7 @@
       <input type="text" placeholder="Ingresa un nombre de usuario" name="usuario" required>
       
       <div class="clearfix">
-        <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancelar</button>
+        <button type="button" onclick="javascript:history.back(-1);" class="cancelbtn">Cancelar</button>
         <button type="submit" class="signupbtn">Registrar</button>
       </div>
     </div>
