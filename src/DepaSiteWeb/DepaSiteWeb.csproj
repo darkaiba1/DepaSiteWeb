@@ -172,7 +172,7 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\DepaSiteData\DepaSiteData.csproj">
-      <Project>{b87864da-650a-4e48-b4e9-29e9e9d25985}</Project>
+      <Project>{649dad0c-5e98-4dcd-9c02-9eb5bb6d0857}</Project>
       <Name>DepaSiteData</Name>
     </ProjectReference>
   </ItemGroup>
