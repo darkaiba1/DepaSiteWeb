@@ -1,17 +1,16 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Default.aspx.cs" Inherits="DepaSiteWeb.Default" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Departamento.aspx.cs" Inherits="DepaSiteWeb.Departamento" %>
 
 <!DOCTYPE html>
 
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
-    <title>DepaSite: Uriangato</title>
-     <link href="Default.css" rel="stylesheet" />
     <link href="Content/bootstrap.min.css" rel="stylesheet" />
     <script src="Scripts/jquery-3.0.0.min.js"></script>
     <script src="Scripts/esm/popper.min.js"></script>
     <script src="Scripts/bootstrap.min.js"></script>
 
+    <title>Busca Departamento</title>
 </head>
 <body>
     <nav class="navbar navbar-expand-md bg-dark navbar-dark">
@@ -42,30 +41,12 @@
     </ul>
   </div> 
 </nav>
-    <div class="container">
-    <div class="centered">
-      <input type="search" placeholder="Intenta <<Uriangato>>"/>
-      <br />
-      <button type="button" class="btn btn-primary" >Localizar</button>
+
+    <form id="form1" runat="server">
+    <div>
+    <input type="text" id="calle" placeholder="Busca por calle" runat="server"/>
+    <button id="obtener" runat="server" onserverclick="obtener_ServerClick"> Buscar </button>
     </div>
-     <img src="img/portada2.png"  alt="Depasite"/>
-    </div>
-    
- <article>
-  <div class="row">
-  <div class="col-sm-4" style="background-color:lightgray;"><h1>SOMOS</h1>  <h2>Un sitio Web</h2>   <p>Para la ayuda de estudiantes foraneos<br /> en busqueda de departamentos</p>   </div>
-  <div class="col-sm-4"> 
-  <img src="img/tema3.PNG"  alt="imagen 3" class="tema"/>
-  </div>
-  <div class="col-sm-4"style="background-color:lightgray;"><h1>Los Mejores!!</h1>  <h2>La mejor opcion!!</h2>   <p>Las mejores opciones de departamentos<br /> en renta aqui las encontraras</p>   </div>
-</div>
-    </article>
-    <article>
-  <div class="row">
-  <div class="col-sm-4 "><img src="img/tema1.png" alt="imagen 1" class="tema"/></div>
-  <div class="col-sm-4"style="background-color:lightgray;"><h1>¡VAMOS!</h1>  <h2>Registrate</h2><p>Quedaras satisfecho, somos tu mejor<br /> opcion, no te arrepentiras</p>  <p></p> </div>
-  <div class="col-sm-4"><img src="img/tema2.png"  alt="imagen 2"class="tema"/></div>
-</div>
-    </article>
+    </form>
 </body>
 </html>
