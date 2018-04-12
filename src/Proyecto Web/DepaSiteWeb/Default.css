@@ -14,7 +14,15 @@
     max-width:100% !important;
    
 }
-
+.footer {
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color: black;
+   color: white;
+   text-align: center;
+}
 .centered {
     position: absolute;
     top: 50%;

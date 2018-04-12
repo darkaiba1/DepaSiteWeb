@@ -10,6 +10,6 @@
 namespace DepaSiteWeb {
     
     
-    public partial class Departamento {
+    public partial class VerMas {
     }
 }

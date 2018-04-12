@@ -16,7 +16,7 @@
 <body>
     <nav class="navbar navbar-expand-md bg-dark navbar-dark">
   <!-- Brand -->
-  <a class="navbar-brand" href="#"><img src="img/casa.jpg" /> Depasite </a>
+  <a class="navbar-brand" href="#"><img src="img/casa.jpg" /> DepaSite </a>
 
   <!-- Toggler/collapsibe Button -->
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
@@ -46,7 +46,7 @@
     <div class="centered">
       <input type="search" placeholder="Intenta <<Uriangato>>"/>
       <br />
-      <button type="button" class="btn btn-primary" >Localizar</button>
+      <button type="button"  onclick="window.open('Departamento.aspx')" class="btn btn-primary" >Localizar</button>
     </div>
      <img src="img/portada2.png"  alt="Depasite"/>
     </div>
@@ -57,7 +57,7 @@
   <div class="col-sm-4"> 
   <img src="img/tema3.PNG"  alt="imagen 3" class="tema"/>
   </div>
-  <div class="col-sm-4"style="background-color:lightgray;"><h1>Los Mejores!!</h1>  <h2>La mejor opcion!!</h2>   <p>Las mejores opciones de departamentos<br /> en renta aqui las encontraras</p>   </div>
+  <div class="col-sm-4"style="background-color:lightgray;"><h1>Ya sabes donde vivir!!</h1>  <h2>Nosotros te ayudamos!!</h2>   <p>Las mejores opciones de departamentos<br /> en renta aqui las encontraras</p>   </div>
 </div>
     </article>
     <article>
@@ -67,5 +67,10 @@
   <div class="col-sm-4"><img src="img/tema2.png"  alt="imagen 2"class="tema"/></div>
 </div>
     </article>
+    <div class="footer">
+  <p>Footer</p>
+</div>
+
+
 </body>
 </html>
